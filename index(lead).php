@@ -25,6 +25,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
 $response = curl_exec($ch);
 curl_close($ch);
 
-echo "Lead created successfully";
+echo "Lead Created Successfully";
+
 
 ?>
